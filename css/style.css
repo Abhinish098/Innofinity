@@ -325,6 +325,7 @@ tbody {
 ----------------------------------------------------------------------------- */
 .page-wrapper {
 	background-color: #ffffff;
+    padding: 20px;
 }
 .header-top {
 	background-color: #f1f1f1;
