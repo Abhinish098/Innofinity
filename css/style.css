@@ -325,7 +325,6 @@ tbody {
 ----------------------------------------------------------------------------- */
 .page-wrapper {
 	background-color: #ffffff;
-    padding: 20px;
 }
 .header-top {
 	background-color: #f1f1f1;
@@ -2769,7 +2768,7 @@ ul.pagination li > a:focus {
 }
 .tab-content {
 	border: 1px solid #f0f0f0;
-	padding: 20px;
+	padding: 10px;
 	border-top: none;
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
 	position: relative;
