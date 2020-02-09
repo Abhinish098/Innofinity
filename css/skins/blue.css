@@ -23,12 +23,22 @@ mark,
 .btn-light-gray:active,
 .btn-light-gray.active,
 .open .dropdown-toggle.btn-light-gray{color:#ffffff;background-color:#3d78d8;border-color:#3d78d8;}
-.btn-default{background-color:#3d78d8;color:#fff !important;border-color:#2c5fb3;}
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active,
-.btn-default.active,
-.open .dropdown-toggle.btn-default{color:#fff !important;background-color:#2c5fb3;border-color:#2c5fb3;}
+.btn-default {
+    background-color: #3d78d8;
+    color: #fff !important;
+    border-color: #2c5fb3;
+    border-radius: 5px;
+}
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default:active,
+    .btn-default.active,
+    .open .dropdown-toggle.btn-default {
+        color: #fff !important;
+        background-color: #2c5fb3;
+        border-color: #2c5fb3;
+        border-radius: 25px;
+    }
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default{background-color:#2c5fb3;border-color:#2c5fb3;}

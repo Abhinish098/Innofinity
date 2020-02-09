@@ -3550,19 +3550,20 @@ a.overlay.small i {
 
 /* first level menu items */
 .navbar-default .navbar-nav > li > a {
-	color: #666666;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 700;
-	padding: 12px 20px 12px 19px;
-	z-index: 102;
-	border: 1px solid transparent;
-	bottom: -1px;
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	-ms-transition: none;
-	transition: none;
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 20px 12px 19px;
+    z-index: 102;
+    border: 1px solid transparent;
+    bottom: -1px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+    border-radius: 5px;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	-webkit-transition: all 0.2s ease-out;
