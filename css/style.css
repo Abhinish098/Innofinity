@@ -123,7 +123,7 @@ a:active {
 }
 img {
 	display: block;
-	max-width: 80%;
+	max-width: 100%;
 	height: auto;
 
 }
@@ -1000,12 +1000,12 @@ tbody {
 	width: 60px;
 	height: 5px;
 	margin: 15px auto 15px;
-	background-color: #cccccc;
+	background-color: #000000;
 	position: relative;
-	border: 1px solid #cccccc;
+	border: 1px solid #000000;
 }
 .separator:after {
-	width: 30px;
+	width: 60px;
 	height: 5px;
 	background: #000000;
 	position: absolute;
