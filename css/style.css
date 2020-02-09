@@ -3540,7 +3540,7 @@ a.overlay.small i {
 /* first level menu */
 .navbar.navbar-default {
 	border-radius: 0;
-	margin: 12px 0 5px;
+	margin: 1px 0 5px;
 	background-color: #fafafa;
 	border-color: #f1f1f1;
 }
@@ -3564,6 +3564,7 @@ a.overlay.small i {
     -ms-transition: none;
     transition: none;
     border-radius: 5px;
+    margin-top: -1ch;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	-webkit-transition: all 0.2s ease-out;
@@ -3950,11 +3951,11 @@ a.overlay.small i {
 	}
 	
 	/* first level menu */
-	.navbar.navbar-default,
-	.dark.header .navbar.navbar-default {
-		background-color: transparent;
-		border-color: transparent;
-	}
+    .navbar.navbar-default,
+    .dark.header .navbar.navbar-default {
+        background-color: transparent;
+        border-color: transparent;
+    }
 	
 	/* layout fixes */
 	.main-navigation .container-fluid {
@@ -4008,11 +4009,13 @@ a.overlay.small i {
 /* Large devices (Large desktops 1200px and up) */
 @media (min-width:1200px) {
 	/* first level menu item */
-	.main-navigation .navbar-nav > li {
-		margin: 0 0 0 15px;
-	}
+    .main-navigation .navbar-nav > li {
+        margin: 0 0 0 15px;
+        padding-top: 10px;
+    }
 	.main-navigation .navbar-nav > li:first-child {
 		margin: 0;
+        padding-top: 10px;
 	}
 	.col-md-3 + .col-md-9 .mega-menu .dropdown-menu {
 		left: -293px;
@@ -5831,7 +5834,7 @@ ul.tweets li span {
 .tp-caption.small_thin_dark {
 	font-size: 18px;
 	line-height: 26px;
-	color: #000;
+	color: #fff;
 	font-weight: 400;
 }
 .tp-caption.large {
@@ -5849,7 +5852,7 @@ ul.tweets li span {
 .tp-caption.black,
 .tp-caption .btn.black,
 .tp-caption .btn.black:hover {
-	color: #333333;
+	color: #fff;
 }
 /* Large devices (Large desktops less than 1199px) */
 @media (max-width:1199px) {
