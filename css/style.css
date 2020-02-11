@@ -123,7 +123,7 @@ a:active {
 }
 img {
 	display: block;
-	max-width: 100%;
+	width: 60%;
 	height: auto;
 
 }
@@ -3550,9 +3550,9 @@ a.overlay.small i {
 
 /* first level menu items */
 .navbar-default .navbar-nav > li > a {
-    color: #666666;
+    color: #0ca7c6;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     padding: 12px 20px 12px 19px;
     z-index: 102;
