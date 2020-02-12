@@ -97,6 +97,7 @@ h6 {
 }
 p {
 	margin-bottom: 5px;
+    padding-left: 15px;
 }
 a {
 	color: #e84c3d;
@@ -123,7 +124,7 @@ a:active {
 }
 img {
 	display: block;
-	width: 60%;
+	width: 100%;
 	height: auto;
 
 }
@@ -4468,6 +4469,8 @@ a.overlay.small i {
 	-ms-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
+    width: 60%;
+    height: auto;
 }
 .logo img:hover {
 	opacity: 0.85;
