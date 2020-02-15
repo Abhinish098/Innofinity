@@ -307,11 +307,12 @@
     }
     </style>
     
-    <html>
-    <head>
+<html>
+   <head>
       <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
-    </head>
-    <body>
+      
+   </head>
+   <body>
       <div class="wrapper fadeInDown">
         <div id="formContent">
           <!-- Tabs Titles -->
@@ -320,8 +321,13 @@
           <div class="fadeIn first">
             <img src="images/Innofinity_main.png" id="icon" alt="User Icon" />
           </div>
-    
-          <!-- Login Form -->
+          <div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
+        <div class="container">
+          <h1 class="text-center">Why Choose Us?</h1>
+          <div class="separator"></div>
+          <!-- <p class="lead text-center">Utilizing next-generation technology in order to improve upon current systems, our service assures world-class algorithm that detects and prevents any kind of accident. Our customer satisfaction being the foremost priority, our goal is to immediately locate and aid in the timely rescue of the user with the device being setup in the car which uses AI and ML to determine the road accident and act accordingly.</p>
+          <div class="row"> -->
+            <div class="col-md-6"> <!-- Login Form -->
           <div style="text-align:center">
             <form>
                 <p>First name</p>
@@ -355,7 +361,38 @@
           <div id="formFooter">
             <a class="underlineHover" href="#">Forgot Password?</a>
           </div>
+            </div>  
+            <div class="col-md-6"><div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="images/login.png" id="icon" alt="User Icon" >
+      </div>
+
+      <!-- Login Form -->
+      <form>
+        <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+        <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+        <input type="submit" class="fadeIn fourth" value="Log In">
+        <div id="my-signin2">
+          <button class="loginBtn loginBtn--google">
+            Login with Google
+          </button>
+        </div>
+      </form>
+
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="#">Forgot Password?</a>
+      </div>
+    </div>
+  </div>
+            </div>
+          </div>
         </div>
       </div>
-    </body>
-    </html>
+    </div>
+  </body>
+</html>
